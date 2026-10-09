@@ -35,7 +35,7 @@ All parameters are dimensionless. Frequencies are in units of the Doppler width 
 |---|---|---|
 | `l_lam` | $l/\lambda$ | layer thickness in wavelengths |
 | `Omega` | $\Omega = (\omega - \omega_0)/k v_T$ | detuning; scalar or array |
-| `Gamma` | $\Gamma = \gamma/k v_T$ | homogeneous half-width; $\gamma$ is the decay rate of the optical coherence (natural plus collisional) |
+| `Gamma` | $\Gamma = \gamma/k v_T$ | homogeneous half-width|
 | `m` | $m = 2\sqrt{\pi}\,N d^2/\hbar k v_T$ | optical density; $N$ is the atomic density and $d$ the transition dipole, in Gaussian units (in SI, $m = N d^2/2\sqrt{\pi}\,\varepsilon_0\hbar k v_T$) |
 | `n1`, `n2` | $n_1$, $n_2$ | real refractive indices of the front window (the light is incident from it) and of the rear window |
 | `N` | | number of grid intervals across the layer (even); default `tvl.grid_size(l_lam)` |
