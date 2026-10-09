@@ -56,7 +56,7 @@ All parameters are dimensionless. Frequencies are in units of the Doppler width 
 
 With $\xi = kx$ and $\nu = v/v_T$, the field $E$ and the atomic coherence $\sigma$ inside the layer, $0 \le \xi \le \phi = kl$, obey the self-consistent set of equations:
 
-$$\dfrac{d^2E(\xi)}{d\xi^2} + E(\xi) = -2im\int_{-\infty}^{\infty}\sigma(\xi,\nu)e^{-\nu^2}d\nu, \qquad \nu \partial_\xi\sigma(\xi,\nu) + (\Gamma - i\Omega)\sigma(\xi,\nu) = E(\xi).$$
+$$\dfrac{d^2E(\xi)}{d\xi^2} + E(\xi) = -2im\int_{-\infty}^{\infty}\sigma(\xi,\nu)e^{-\nu^2}d\nu, \qquad \nu \dfrac{\partial \sigma(\xi,\nu)}{\partial \xi} + (\Gamma - i\Omega)\sigma(\xi,\nu) = E(\xi).$$
 
 - Atom-wall collisions are dominated by the quenching of atomic polarisation (i.e. atom leaves a surface with zero polarisation) or formally $\sigma(0, \nu > 0) = \sigma(\phi, \nu < 0) = 0$;
 - $\Omega > 0$ means the laser is tuned above resonance, $\eta = \Gamma - i\Omega$;
