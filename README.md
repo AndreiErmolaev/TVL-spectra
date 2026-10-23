@@ -2,7 +2,7 @@
 
 Reflection, transmission and absorption spectra of a thin atomic vapor layer between two dielectric windows, computed in the linear regime with quenching of the atomic polarization at the walls. The layer can be anywhere from a fraction of a wavelength to a few wavelengths thick, and the solution is exact in the optical density of the vapor (no perturbation expansion).
 
-The model is that of A. V. Ermolaev and T. A. Vartanyan, Phys. Rev. A **105**, 013518 (2022) extended to non-perturbative treatment.
+The model is that of A. V. Ermolaev and T. A. Vartanyan, Phys. Rev. A **105**, 013518 (2022) extended to non-perturbative treatment. Extended description is provided in TVL_solver_scheme_github.pdf file.
 
 ![Reflection, transmission and absorption of a 5λ/3 vapor layer](figures/example_spectra.png)
 
@@ -82,6 +82,7 @@ The layer is cut into $N$ intervals ($N + 1$ nodes), and for every detuning we c
 | `tvl.py` | the solver and the plotting function |
 | `example.ipynb` | example: parameters, spectra, figure, sanity check |
 | `figures/example_spectra.png` | the figure produced by the example notebook |
+| `TVL_solver_scheme_github.pdf` | extensive description of the implemented numerical scheme |
 | `paper2022.py` | figure code for Figs. 2–5 of the paper |
 | `paper_figures.ipynb` | recomputes Figs. 2–5 of the paper with the exact theory |
 | `figures/paper2022/` | the four recomputed figures, PNG and PDF |
