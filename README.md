@@ -109,9 +109,14 @@ A. V. Ermolaev and T. A. Vartanyan, "Theory of thin-vapor-layer linear-optical p
 
 A. V. Ermolaev and T. A. Vartanyan, "Nonperturbative theory of thin-vapor-layer linear optical properties: towards the optimal design of alkali-metal vapor nanocells," 10.48550/arXiv.2611.00400 (2026), [https://doi.org/10.48550/arXiv.2611.00400]([https://doi.org/10.1103/PhysRevA.105.013518](https://arxiv.org/abs/2611.00400)).
 
+@article{Ermolaev2026,
+  author  = {Ermolaev, A. V. and Vartanyan, T. A.},
+  title   = {Nonperturbative theory of thin-vapor-layer linear optical properties:
+             towards the optimal design of alkali-metal vapor nanocells},
+  journal = {arXiv:2611.00400},
+  year    = {2026},
+  doi     = {10.48550/arXiv.2611.00400}
 }
-
-
 
 ## License
 
