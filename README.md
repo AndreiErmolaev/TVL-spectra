@@ -90,7 +90,7 @@ The layer is cut into $N$ intervals ($N + 1$ nodes), and for every detuning we c
 
 ## Citation
 
-If you use this code, please cite
+If you use this code, please cite these papers:
 
 A. V. Ermolaev and T. A. Vartanyan, "Theory of thin-vapor-layer linear-optical properties: The case of quenching of atomic polarization upon collisions of atoms with dielectric walls," Phys. Rev. A **105**, 013518 (2022), [doi:10.1103/PhysRevA.105.013518](https://doi.org/10.1103/PhysRevA.105.013518), [arXiv:2111.03515](https://arxiv.org/abs/2111.03515).
 
@@ -104,8 +104,14 @@ A. V. Ermolaev and T. A. Vartanyan, "Theory of thin-vapor-layer linear-optical p
   pages   = {013518},
   year    = {2022},
   doi     = {10.1103/PhysRevA.105.013518}
-}
 ```
+
+
+A. V. Ermolaev and T. A. Vartanyan, "Nonperturbative theory of thin-vapor-layer linear optical properties: towards the optimal design of alkali-metal vapor nanocells," 10.48550/arXiv.2611.00400 (2026), [https://doi.org/10.48550/arXiv.2611.00400]([https://doi.org/10.1103/PhysRevA.105.013518](https://arxiv.org/abs/2611.00400)).
+
+}
+
+
 
 ## License
 
